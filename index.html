@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <img id="logo" src="Screenshot__137_logo-removebg-preview.png" alt="">
+            <!-- <input type="checkbox" id="check"> -->
+            <div id="nav-cntr" class="nav-cntr">
+                <a href="#main"><u>home</u></a>
+                <a href="#main2">about</a>
+                <a href="#main3">service</a>
+                <a href="#main4">Contact</a>
+            </div>
+            
+            <!-- <label for="check" id="checkbtn"> -->
+                <i class="ri-menu-line menu"></i>
+            <!-- </label> -->
+        </div>
+        <div id="two">
+            <div class="containt">
+                <h1>Mahima Two Wheeler Service Point</h1>
+                <h2>A Name You Can Trust ❤️</h2>
+                <p>Fast, Professional and Reliable Service</p>
+                <button>Read-more</button>
+            </div>
+        </div>
+    </div>
+    <div id="main2">
+        <div class="left">
+            <div class="text">
+                <h2>About</h2>
+                <p>Mahima Two Wheeler Service Point has been providing the finest service to the San Bhainsdehi area
+                    since 1998. We’re an independently owned Mechanic, offering service for any make and model of
+                    vehicle. Our goal is to maintain our position as a leading Mechanic, which is why we’ll do whatever
+                    it takes to earn your trust. We believe in providing the highest level of service in all areas of
+                    our expertise and going the extra mile to give you an unparalleled level of assistance you won’t
+                    find anywhere else.</p>
+            </div>
+        </div>
+        <div class="right">
+            <img id="owner-img" src="WhatsApp Image 2023-10-28 at 11.51.25 AM.jpeg" alt="">
+        </div>
+    </div>
+    <div id="main3">
+        <div class="hrading">
+            <h1>Services</h1>
+        </div>
+        <div class="box-container">
+            <div id="box1" class="box">
+                <!-- <i class="ri-edit-box-line"></i> -->
+                <h2>Servicing & Repair</h2>
+                <p>We have an expert to provide two wheeler repair & services</p>
+                <button>Click</button>
+            </div>
+            <div id="box2" class="box">
+                <!-- <i class="ri-edit-box-line"></i> -->
+                <h2>Minor Repair</h2>
+                <p>We have an expert for repairing minor repair details of two wheeler</p>
+                <button>Click</button>
+            </div>
+            <div id="box3" class="box">
+                <!-- <i class="ri-edit-box-line"></i> -->
+                <h2>Servicing & Repair</h2>
+                <p>We have an expert to provide two wheeler repair & services</p>
+                <button>Click</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main4">
+        <div id="con-area">
+            <div class="head">
+                <h1>contact</h1>
+                <br><p>Mahima Two Wheelar Service Point <br>Gudgao-Chopati,Bhaisdehi Road(M.P.)</p>
+                <br><p class="owner">Mr. Mohan Makode</p>
+                <a href="tel:+91%208989574832">Phone No - 8989574832</a><br>
+                <a href="mailto:mohanmakode8@gamil.com">Email - mohanmakode8@gamil.com</a>
+            </div>
+            <div id="con">
+                <h3>Stay Connected</h3><br>
+                <div class="icon">
+                    <a href=""><i class="ri-facebook-circle-fill"></i>Facebook</a><br><br>
+                    <a href=""><i class="ri-instagram-fill"></i>Instragram</a><br><br>
+                    <a href=""><i class="ri-twitter-fill"></i>Twiter</a>
+                </div>
+            </div>
+            <div class="connt">
+                <p>Or Leave a Message Here</p><br>
+                <input type="text" class="boxx" placeholder="first name"><br><br>
+                <input type="text" class="boxx" placeholder="last name"><br><br>
+                <input type="email" class="boxx" placeholder="your email"><br><br>
+                <div class="btnn">
+                    <button type="submit">submit</button>
+                </div>
+    
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        
+        let btn = document.querySelector('.menu'); 
+        let nav = document.querySelector('#nav-cntr'); 
+        btn.addEventListener("click",click)
+
+        function click() {
+            nav.classList.toggle('act');
+        }
+        
+       
+    </script>
+</body>
+
+</html>

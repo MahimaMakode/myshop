@@ -1,0 +1,518 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Nunito!important;
+    color: #2c323c;
+    font-weight: 400;
+    /* margin: auto; */
+    line-height:1.42857143;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(90deg,rgba(36, 20, 1, 0.839),rgba(63, 47, 26, 0)),url(bgimage.jpg);
+}
+button:hover{
+    scale: 1.1;
+    box-shadow:0 0 0 0;
+    color: black;
+    background-color: white; 
+}
+.box:hover{
+    font-family: cursive;
+}
+.box h1:hover{
+    color: rgb(255, 221, 0);
+}
+#nav a:hover{
+    color: rgb(14, 255, 18);
+    scale: 1.1;
+}
+.box:hover{
+    scale: 1.05;
+}
+#nav{
+    width: 100%;
+    height: 13vh;
+    /* z-index: 999; */
+    background-color: #6e5c5c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed; */
+}
+/* #nav h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(180, 38, 38);
+} */
+.nav-cntr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-cntr a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 3vw;
+    margin-top: 22px;
+    color: rgb(255, 251, 251);
+}
+#nav #logo{
+    width: 17%;
+    margin-top: 1px;
+}
+#checkbtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+.btn button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #3c1b09;
+    font-weight: 550;
+    border-radius: 20px;
+    border: 1px double white;
+    box-shadow: 0 0px 5px 1px white;
+}
+#two{
+    font-family:Nunito!important;
+    width: 50%;
+    height: 45%;
+    margin-top: 120px;
+}
+.containt{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.containt h1{
+    color: white;
+    font-size: 70px;
+}
+.containt h2{
+    color: rgb(238, 231, 12);
+    font-size: 30px;
+    /* margin-left: 15px; */
+}
+.containt p{
+    color: white;
+    font-size: 19px;
+    /* margin-right: 29px; */
+    padding-top: 10px;
+}
+.containt button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #3c1b09;
+    font-weight: 550;
+    border-radius: 20px;
+    border: 1px double white;
+    box-shadow: 0 0px 5px 1px white;
+    margin-top: 30px;
+    /* margin-right: 29px; */
+}
+.menu{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+}
+#main2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    padding-left: 10%;
+}
+.left{
+    width: 56%;
+    height: 75%;
+    padding-left: 21px;
+    padding-right: 67px;    
+    background-color: #46240f;
+    text-align: start;
+    /* margin-left: 18%; */
+}
+.text{
+    width: 82%;
+    height: 100%;
+    /* margin-top: 20%; */
+    line-height: 28px;
+    margin-top: 20%;
+    margin-left: 10%;
+    /* padding-left: 30px; */
+}
+.text h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: wheat;
+}
+.text p{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 17px;
+    color: white;
+}
+.right{
+    width: 38%;
+    height: 50%;
+    /* position: relative;
+    left: 8%;
+    bottom: 40px; */
+    margin-left: -7%;
+    margin-top: 10%;
+}
+.right img{
+    width: 65%;
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 27, 27);
+}
+.box-container{
+    width: 100%;
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    text-align: center;
+    color: white;
+}
+.box{
+    width: 23%;
+    height: 65%;
+    background-color: white;
+    /* box-shadow: 0 0 10px 2px white; */
+    border-radius: 40px 0 40px 0;
+    transition: all .5s ease;
+    
+}
+#box1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url(enginr.jpg); */
+    background-image:linear-gradient(135deg,rgba(36, 20, 1, 0.509),rgba(63, 47, 26, 0.714)),url(bikerepair1.jpg);
+}
+#box2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url(eng.jpg); */
+    background-image:linear-gradient(135deg,rgba(36, 20, 1, 0.505),rgba(63, 47, 26, 0.608)),url(eng.jpg);
+}
+#box3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url(eng3.webp); */
+    background-image:linear-gradient(135deg,rgba(36, 20, 1, 0.532),rgba(63, 47, 26, 0.65)),url(eng3.webp);
+    background-position: center;
+}
+.box button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #3c1b09;
+    font-weight: 550;
+    border-radius: 20px;
+    border: 1px double white;
+    box-shadow: 0 0px 5px 1px white;
+}
+.box h2{
+    margin-top: 55%;
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+.box p{
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.hrading h1{
+    color: white;
+    padding-top: 5%;
+    padding-left: 43%;
+    align-items: center;
+    font-size: 50px;
+}
+#main4{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+}
+#con-area{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 227, 217);
+    /* position: relative; */
+    /* top: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    display: none;
+}
+.head p{
+    color: rgb(11, 11, 11);
+    font-size: 17px;
+    cursor: pointer;
+}
+.head a{
+    color: rgb(11, 11, 11);
+    cursor: pointer;
+}
+#con{
+    width: 20%;
+    height: 30%;
+    /* background-color: red; */
+}
+.icon a{
+   text-decoration: none;
+   color: #3c1b09;
+   font-size: 18px; 
+}
+.connt input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.btnn button{
+    padding: 5px 10px;
+    color: white;
+    background-color: #3c1b09;
+    font-weight: 550;
+    border-radius: 20px;
+    border: 1px double white;
+    box-shadow: 0 0px 5px 1px black;
+    margin-left: 60%;
+}
+
+@media (max-width:970px) {
+
+    .containt h1{
+        font-size: 57px;
+    }
+    .box-container{
+        gap: 30px;
+    }
+    .box{
+        width: 29%;
+    }
+    #con-area{
+        padding: 0 20px; 
+    }
+    .hrading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .hrading h1{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width:788px) {
+    #nav{
+        justify-content: space-between;
+        padding: 0 40px;
+        position: relative;
+    }
+    #nav #logo{
+        width: 23%;
+        margin-top: 0;
+    }
+    #nav-cntr{
+        display: none;
+        /* display: block; */
+        /* background-color: #fff; */
+        width: 100%;
+        height: 73px;
+        position: absolute;
+        box-shadow: 1px 0px 10px 0 rgb(146, 146, 146);
+        right: -100%;
+        text-align: center;
+        top: -110%;
+        border-radius: 20px;
+        background-color: #1b19196b;
+    }
+    #nav-cntr a{
+        display: inline-block;
+    }
+    
+    #nav-cntr.act{
+        top: 110%;
+        right: 0;
+        transition: all 3s ease;
+        /* animation: navDown .3s ease ; */
+        display: initial;
+    }
+    #two{
+        width: 70%;
+        top: 20%;
+        margin-left: 5vw;
+    }
+    #two .containt h1 {
+        font-size: 40px;
+    }
+    .containt{
+        width: 73%;
+        text-align: center;
+    }
+    #main2 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        padding: 40px 40px;
+        left: 0;
+    }
+    .right{
+        width: 31%;
+        position: absolute;
+        height: auto;
+        bottom: -12%;
+        left: 55%;
+        transform: translate(-50%,-50%);
+    }
+    .right img{
+        width: 100%;
+        
+    }
+    .text{
+        text-align: center;
+        height: auto;
+    }
+    .text p{
+        word-spacing: 0;
+    }
+    #main3{
+        height: auto;
+        padding: 0 0 40px 0;
+    }
+    .box-container{
+        width: 100%;
+        height: 80%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* position: relative;
+        top: 0%; */
+        /* gap: 110px; */
+        gap: 50px;
+        text-align: center;
+        color: white;
+    }
+    .box{
+        width: 60%;
+    height: 65%;
+    background-color: white;
+    /* box-shadow: 0 0 10px 2px white; */
+    border-radius: 40px 0 40px 0;
+    padding: 0 0 30px 0;
+    }
+    #box1{
+        margin: 40px 0 0 0;
+    }
+    #con-area{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        place-items: center;
+
+    }
+    .head{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        /* display; */
+        text-align: center;
+    }
+    #con{
+        margin-top: 40px;
+    }
+    #main4{
+        height: auto;
+    }
+    .connt{
+        margin-top: 30px;
+    }
+    .connt .btnn{
+        margin-bottom: 20px;
+    }
+    .btnn button {
+        margin: 30px;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media (max-width:500px) {
+    #two{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    #two .containt h1 {
+        font-size: 30px;
+    }
+    .containt{
+        width: 73%;
+        text-align: center;
+    }
+    #nav #logo{
+        width: 28%;
+    }
+    .left{
+        padding: 44px 27px;
+    }
+    .text p{
+        line-height: 20px;
+    }
+    .right{
+        width: 41%;
+    }
+    .box{
+        width: 86%;
+    }
+    .menu{
+        display: block;
+    }
+    .hrading h1{
+        font-size: 42px;
+    }
+}
